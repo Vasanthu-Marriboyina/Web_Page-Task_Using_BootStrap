@@ -1,0 +1,1320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clear Wave</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="clearwave.css" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="platform.css" />
+    <link rel="stylesheet" href="collaboration.css" />
+    <link rel="stylesheet" href="pricing.css" />
+    <link rel="stylesheet" href="testimonial.css">
+    <link rel="stylesheet" href="stack.css">
+    <link rel="stylesheet" href="footer.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg sticky-pop">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            >clear<span style="color: rgb(87, 145, 126)">wave</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav justify-content-center flex-grow-1 pe-3 text-success"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="#">App</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FAQ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#" class="sign">Sign in</a>
+          <a href="#" class="btn btn-success px-8 py-2 rounded-5 trail"
+            >Start Free Trail</a
+          >
+        </div>
+      </nav>
+
+      <div class="container me-auto position-absolute top-0 start-0">
+        <!-- Team Performance Card -->
+        <div
+          class="card shadow border-0 p-3 mb-4 w-40 rounded-4 position-absolute top-100 start-50"
+        >
+          <h5 class="fw-bold position-absolute top-40">Team Performance</h5>
+
+          <!-- Chart -->
+          <div class="d-flex align-items-end gap-3 mb-2" style="height: 180px">
+            <div
+              class="rounded-1"
+              style="
+                width: 40px;
+                height: 30px;
+                background-color: rgb(235, 234, 232);
+              "
+            ></div>
+            <div
+              class="rounded-1"
+              style="
+                width: 40px;
+                height: 60px;
+                background-color: rgb(235, 234, 232);
+              "
+            ></div>
+            <div
+              class="rounded-1"
+              style="
+                width: 40px;
+                height: 50px;
+                background-color: rgb(235, 234, 232);
+              "
+            ></div>
+            <div
+              class="bg-success rounded-1"
+              style="width: 40px; height: 80px"
+            ></div>
+            <div
+              class="rounded-1"
+              style="
+                width: 40px;
+                height: 70px;
+                background-color: rgb(235, 234, 232);
+              "
+            ></div>
+            <div
+              class="bg-success rounded-1"
+              style="width: 40px; height: 100px"
+            ></div>
+            <div
+              class="rounded-1"
+              style="
+                width: 40px;
+                height: 90px;
+                background-color: rgb(235, 234, 232);
+              "
+            ></div>
+            <div
+              class="bg-success rounded-1"
+              style="width: 40px; height: 120px"
+            ></div>
+          </div>
+
+          <!-- Stats Cards -->
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div
+                class="card active border-1 bg-light rounded-4 text-center p-3"
+              >
+                <h3 class="fw-bold">94<span class="text-success">%</span></h3>
+                <p class="text-muted mb-1">Task Rate</p>
+                <h6 class="text-success">+12%</h6>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div
+                class="card active border-1 bg-light rounded-4 text-center p-3"
+              >
+                <h3 class="fw-bold">2.4<span class="text-success">k</span></h3>
+                <p class="text-muted mb-1">Active Users</p>
+                <h6 class="text-success">+8%</h6>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div
+                class="card active border-1 bg-light rounded-4 text-center p-3"
+              >
+                <h3 class="fw-bold">18<span class="text-success">h</span></h3>
+                <p class="text-muted mb-1">Saved / Week</p>
+                <h6 class="text-success">+24%</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Output Card -->
+        <div
+          class="card border-1 shadow-sm p-2 mb-2 output rounded-4 bg-success"
+          style="max-width: 140px"
+        >
+          <h4 class="text-light"><i class="fa-solid fa-arrow-up"></i> 34%</h4>
+          <p class="text-light mb-0">Output this week</p>
+        </div>
+
+        <!-- Integration Card -->
+        <div
+          class="card border-0 shadow-sm p-3 mb-4 integration rounded-4"
+          style="max-width: 300px; height: 70px"
+        >
+          <div class="d-flex align-items-center">
+            <i class="fa-brands fa-bandcamp fa-3x"></i>
+            <div>
+              <h6 class="fw-bold mb-0">New Integration</h6>
+              <p class="stack mb-2" style="color: rgb(153, 196, 182)">
+                Stack connected just now
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature Buttons -->
+        <div class="d-flex flex-wrap gap-3 sheild">
+          <button class="btn btn-outline-secondary rounded-pill px-4">
+            <i class="fa-solid fa-shield-halved me-2"></i>
+            SOC 2 Certified
+          </button>
+
+          <button class="btn btn-outline-secondary rounded-pill px-4">
+            <i class="fa-solid fa-bolt me-2"></i>
+            99.9% Uptime SLA
+          </button>
+
+          <button class="btn btn-outline-secondary rounded-pill px-4">
+            <i class="fa-solid fa-user-tie me-2"></i>
+            50K+ Teams
+          </button>
+        </div>
+      </div>
+    </header>
+    <section id="platform">
+      <section class="container py-5">
+        <!-- Heading -->
+
+        <div class="text-center mb-5">
+          <p class="feature-btn">Platform Features</p>
+
+          <h1 class="fw-bold display-5">
+            Built for
+            <span class="sec-span"> clarity </span>
+          </h1>
+
+          <h1 class="fw-bold display-5">at every scale</h1>
+
+          <p class="text-secondary">
+            Every feature is designed to reduce friction and surface what
+            matters.
+          </p>
+
+          <p class="text-secondary">No bloat, no configuration maze</p>
+        </div>
+
+        <!-- Dashboard -->
+
+        <div class="row align-items-center g-5 mb-5">
+          <div class="col-lg-6">
+            <p class="text-success fw-bold">01 - UNIFIED DASHBOARD</p>
+
+            <h2 class="fw-bold">Every metric, one calm surface</h2>
+
+            <p class="text-secondary">
+              Pull data from any source into a single composable view. Share
+              live <br />dashboards with stakeholders - no exports,no
+              screenshots.
+            </p>
+
+            <div class="mt-4">
+              <p>
+                <i class="fa-regular fa-circle-check text-success"></i>
+
+                Real-time data sync across all sources
+              </p>
+
+              <p>
+                <i class="fa-regular fa-circle-check text-success"></i>
+
+                Role-based sharing with granular permissions
+              </p>
+
+              <p>
+                <i class="fa-regular fa-circle-check text-success"></i>
+
+                Drag-and-drop widget builder
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="dashboard-card">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="small-card">
+                    <p>Monthly Revenue</p>
+
+                    <h4>$84.2k</h4>
+
+                    <div class="progress">
+                      <div class="progress-bar w-75"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="small-card">
+                    <p>Active Users</p>
+
+                    <h4>12,481</h4>
+
+                    <div class="progress">
+                      <div class="progress-bar w-100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="activity mt-4">
+                <h6>Recent Activity</h6>
+
+                <div class="activity-box">
+                  <span>Q3 Report Synced</span>
+
+                  <button class="btn btn-sm btn-success rounded-pill">
+                    Done
+                  </button>
+                </div>
+
+                <div class="activity-box">
+                  <span>Team Review Pending</span>
+
+                  <button class="btn btn-sm btn-outline-success rounded-pill">
+                    Active
+                  </button>
+                </div>
+
+                <div class="activity-box">
+                  <span>Analytics Export</span>
+
+                  <button
+                    class="btn btn-sm btn-secondary rounded-pill"
+                    style="
+                      background-color: rgb(218, 221, 224);
+                      border: none;
+                      color: rgb(13, 108, 13);
+                    "
+                  >
+                    Queued
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Automation -->
+
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="automation-card">
+              <div class="automation-row">
+                <span> Weekly digest → Slack </span>
+
+                <button class="btn btn-success rounded-pill">Running</button>
+              </div>
+
+              <div class="automation-row">
+                <span> Lead scored → Notify sales </span>
+
+                <button class="btn btn-success rounded-pill">Running</button>
+              </div>
+
+              <div class="automation-row">
+                <span> Invoice due → Alert CFO </span>
+
+                <button class="btn btn-outline-success rounded-pill">
+                  Active
+                </button>
+              </div>
+
+              <div class="automation-row">
+                <span> Report sync → Drive </span>
+
+                <button
+                  class="btn btn-secondary rounded-pill"
+                  style="
+                    background-color: rgb(218, 221, 224);
+                    border: none;
+                    color: rgb(13, 108, 13);
+                  "
+                >
+                  Paused
+                </button>
+              </div>
+
+              <div class="stats mt-4">
+                <div class="stats-card">
+                  <p>Hours Saved This Month</p>
+
+                  <h3>148h</h3>
+
+                  <div class="progress">
+                    <div class="progress-bar w-75"></div>
+                  </div>
+                </div>
+
+                <div class="stats-card">
+                  <p>Flows</p>
+
+                  <h3>24</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h1 class="fw-bold" style="font-size: 40px;">
+              Routines that run
+
+              <br />
+
+              <span class="sec-span" style="color: black;"> themselves </span>
+            </h1>
+
+            <p class="text-secondary mt-4">
+              Build automation flows with natural language. Clearwave <br>
+              understands your intent and suggests the next step - no flowchart <br>diagrams needed.
+            </p>
+
+            <div class="mt-4">
+              <p>
+                <i class="fa-regular fa-circle-check text-success"></i>
+
+                Natural language automation builder
+              </p>
+
+              <p>
+                <i class="fa-regular fa-circle-check text-success"></i>
+
+                500+ prebuilt trigger templates
+              </p>
+
+              <p>
+                <i class="fa-regular fa-circle-check text-success"></i>
+
+                Full audit trail for every action
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="collaboration">
+      <div id="sect-ion" class="container-fluid py-5">
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <!-- Left Content -->
+
+            <div class="col-lg-6">
+              <p class="section-title">03 - TEAM COLLABORATION</p>
+
+              <h1 class="fw-bold">
+                Comments, context,
+
+                <br />
+
+                and
+
+                <span class="italic-text"> clarity </span>
+              </h1>
+
+              <p class="description">
+                Annotate anything, assign tasks inline, and resolve
+                conversations <br />
+                without switching tabs. The work and the discussion stay
+                together.
+              </p>
+
+              <div class="mt-4">
+                <p class="dspara">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  Inline comments on any data point
+                </p>
+
+                <p class="dspara">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  Threaded task assignments
+                </p>
+
+                <p class="dspara">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  Real-time presence and live cursors
+                </p>
+              </div>
+            </div>
+
+            <!-- Right Card -->
+
+            <div class="col-lg-5">
+              <div class="main-card p-3">
+                <div class="row g-2">
+                  <div class="col-md-7">
+                    <div class="top-card">
+                      <p>Online now</p>
+
+                      <div class="circle-div">
+                        <div class="circle a">A</div>
+
+                        <div class="circle b">K</div>
+
+                        <div class="circle c">M</div>
+
+                        <div class="circle d">+5</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-5">
+                    <div class="top-card task-card">
+                      <p>Open tasks</p>
+
+                      <h2>37</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="comment-card mt-4">
+                  <p class="fw-bold">Recent comments</p>
+
+                  <div class="comment-box">
+                    Alex
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                    Q3 chart updated
+                    <button
+                      class="status-btn resolved"
+                      style="margin-left: 120px"
+                    >
+                      Resolved
+                    </button>
+                  </div>
+
+                  <div class="comment-box">
+                    Kim
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                    Review needed
+                    <button
+                      class="status-btn open"
+                      style="
+                        margin-left: 165px;
+                        color: rgb(113, 215, 183);
+                        background: #d7ecef;
+                      "
+                    >
+                      Open
+                    </button>
+                  </div>
+
+                  <div class="comment-box">
+                    Maya
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                    Approved & shipped
+                    <button
+                      class="status-btn"
+                      style="
+                        margin-left: 120px;
+                        background-color: #d7ecef;
+                        color: rgb(20, 84, 63);
+                      "
+                    >
+                      Done
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-5" />
+
+          <!-- Stats -->
+
+          <div class="row text-start g-4">
+            <div class="col-md-3">
+              <div class="stat-box">
+                <div class="line"></div>
+
+                <h2>17<span>k+</span></h2>
+
+                <h5 class="line_h5">Teams Worldwide</h5>
+
+                <p>Across 80+ countries</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="stat-box">
+                <div class="line"></div>
+
+                <h2>11<span>%</span></h2>
+
+                <h5 class="line_h5">Avg. Productivity Gain</h5>
+
+                <p>Measured in first 30 days</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="stat-box">
+                <div class="line"></div>
+
+                <h2>34.3<span>%</span></h2>
+
+                <h5 class="line_h5">Uptime SLA</h5>
+
+                <p>Guaranteed and monitored</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="stat-box no-border">
+                <div class="line"></div>
+
+                <h2>6<span>h</span></h2>
+
+                <h5 class="line_h5">Saved Per Team Weekly</h5>
+
+                <p>On average across all plans</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing_section">
+      <section id="pricing" class="container-fluid py-5">
+        <div class="container text-center">
+          <div class="badge-box">• PRICING</div>
+
+          <h1 class="main-title">
+            Simple,
+
+            <span> transparent </span>
+
+            pricing
+          </h1>
+
+          <p class="subtitle">
+            No hidden fees. No surprise overages. Cancel anytime.
+          </p>
+
+          <!-- Toggle -->
+
+          <div class="toggle">
+            <span> Monthly </span>
+
+            <div class="switch"></div>
+
+            <span> Annual </span>
+
+            <small> Save 35% </small>
+          </div>
+
+          <!-- Cards -->
+
+          <div class="row g-4 justify-content-center">
+            <!-- Card 1 -->
+
+            <div class="col-lg-4 col-md-5">
+              <div class="pricing-card">
+                <h6>STARTER</h6>
+
+                <div class="price">
+                  <span>$</span>
+                  20
+                  <small>/mo</small>
+                </div>
+
+                <p>
+                  For individuals and small teams getting <br />
+                  started with structured workflows.
+                </p>
+
+                <hr />
+
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Up to 5 team
+                    members
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> 10 active
+                    dashboards
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Basic automations
+                    (50/mo)
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> 7-day data
+                    history
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Email support
+                  </li>
+                </ul>
+
+                <button class="btn custom-btn">Start Free Trial</button>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+
+            <div class="col-lg-4 col-md-5">
+              <div class="pricing-card featured">
+                <div class="popular">MOST POPULAR</div>
+
+                <h6>PROFESSIONAL</h6>
+
+                <div class="price">
+                  <span>$</span>
+
+                  60
+
+                  <small>/mo</small>
+                </div>
+
+                <p>
+                  For growing teams that need powerful <br />
+                  automation and advanced reporting.
+                </p>
+
+                <hr />
+
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Up to 25 team
+                    members
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Unlimited
+                    dashboards
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Advanced
+                    automations (unlimited)
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> 90-day data
+                    history
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Priority chat
+                    support
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Mobile app access
+                  </li>
+                </ul>
+
+                <button class="btn featured-btn">Start Free Trial</button>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+
+            <div class="col-lg-4 col-md-5">
+              <div class="pricing-card">
+                <h6>ENTERPRISE</h6>
+
+                <div class="price">
+                  <span>$</span>
+
+                  150
+
+                  <small>/mo</small>
+                </div>
+
+                <p>
+                  For large organizations with custom <br />
+                  requirements and compliance needs.
+                </p>
+
+                <hr />
+
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Unlimited members
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Custom
+                    integrations & API
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> SSO & advanced
+                    permissions
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Unlimited data
+                    history
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> Dedicated success
+                    manager
+                  </li>
+
+                  <li>
+                    <i class="fa-regular fa-circle-check"></i> SOC 2 compliance
+                    reports
+                  </li>
+                </ul>
+
+                <button class="btn custom-btn">Contact Sales</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="testimonial">
+      <section id="testimonial-section" class="container-fluid py-5">
+        <div class="container">
+          <!-- Heading -->
+
+          <div class="text-center mb-5">
+            <h1 class="section-title">
+              Teams that
+
+              <span
+                style="
+                  font-family:
+                    playfair display,
+                    serif;
+                "
+              >
+                love
+              </span>
+
+              Clearwave
+            </h1>
+
+            <p class="section-para">
+              Don't take our word for it - here's what real teams say after 90
+              <br />
+              days.
+            </p>
+          </div>
+
+          <!-- Top Cards -->
+
+          <div class="row g-4 justify-content-center bott_card">
+            <div class="col-lg-3 col-md-6">
+              <div class="testimonial-card large-card">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p>
+                  "We replaced three separate tools <br />
+                  with Clear Wave and actually have <br />
+                  fewer meetings now. The <br />
+                  automation flows handle the <br />
+                  handoffs our team used to spend <br />
+                  mornings sorting out. It's the <br />
+                  calmest our workflow has ever felt."
+                </p>
+
+                <div class="profile">
+                  <div class="circle">SL</div>
+
+                  <div>
+                    <h6>Sarah Lindqvist</h6>
+
+                    <p>Head of Operations - Stratum IO</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 bot_card">
+              <div class="testimonial-card small">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p>
+                  "The mobile app alone justified the<br />switch.I can review
+                  dashboards and <br />
+                  approve tasks between meetings<br />
+                  without opening my laptop."
+                </p>
+
+                <div class="profile">
+                  <div class="circle">MR</div>
+
+                  <div>
+                    <h6>Marcus Reyes</h6>
+
+                    <p>Product Director - Meridian</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 bot_card">
+              <div class="testimonial-card small">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p>
+                  "Onboarding our 30-person team took <br />one afternoon. The
+                  learning curve is <br />genuinely flat."
+                </p>
+
+                <div class="profile">
+                  <div class="circle">PK</div>
+
+                  <div>
+                    <h6>Priya Kapoor</h6>
+
+                    <p>Engineering Lead - Vanta Labs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Cards -->
+          <div class="bot_card_section">
+            <div class="row justify-content-center g-4 mt-4">
+              <div class="col-lg-3 col-md-6 bot_card">
+                <div class="testimonial-card bottom-card">
+                  <p>
+                    "ahead of what we had. We can finally <br />
+                    show stakeholders live data instead of <br />
+                    preparing decks."
+                  </p>
+
+                  <div class="profile">
+                    <div class="circle">TW</div>
+
+                    <div>
+                      <h6>Tom Wainwright</h6>
+
+                      <p>CFO - Pulsar HQ</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 bot_card">
+                <div class="testimonial-card bottom-card">
+                  <p>
+                    "message. Had a custom integration <br />
+                    question answered in under two hours."
+                  </p>
+
+                  <div class="profile">
+                    <div class="circle">AN</div>
+
+                    <div>
+                      <h6>Aiko Nakamura</h6>
+
+                      <p>CTO - Nexaflow</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="stack">
+
+    <!-- Integrations Section -->
+    <section id="integrations" class="container-fluid py-5">
+        <div class="container text-center">
+
+            <div class="tag">• INTEGRATIONS</div>
+
+            <h1 class="integration-title">
+                Connects with your <br>
+                <span>existing stack</span>
+            </h1>
+
+            <div class="Grid_row g-3 justify-content-center mt-5">
+
+                <div class="col custom-col">
+                    <div class="logo-box">Slack</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Google Sheets</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Google Drive</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Zapier</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Stripe</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">GitHub</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Notion</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Mailchimp</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">HubSpot</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Airtable</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Intercom</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Salesforce</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Figma</div>
+                </div>
+
+                <div class="col custom-col">
+                    <div class="logo-box">Linear</div>
+                </div>
+
+            </div>
+
+            <div class="d-flex Grid_Jira justify-content-center gap-3 mt-4">
+                <button class="stack-btn" style="background-color: #f2f4f2; ">Jira</button>
+                <button class="stack-btn" style="background-color: #f2f4f2; ">Webflow</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq-section" class="container-fluid py-5">
+        <div class="container">
+
+            <div class="row gy-5">
+
+                <div class="col-lg-5">
+
+                    <div class="tag faq-tag">• FAQ</div>
+
+                    <h2 class="faq-title">
+                        Questions, <br>
+                        <span>answered</span>
+                    </h2>
+
+                    <p class="faq-text">
+                        Can't find what you're looking for? Reach our <br>
+                        team at hello@clearwave.io — we reply within
+                        2  <br>hours.
+                    </p>
+
+                    <a href="#">+ Expand all</a>
+
+                </div>
+
+                <div class="col-lg-7">
+
+                    <div class="faq-item">
+                        <span>Is there a free trial?</span>
+                        <button>+</button>
+                    </div>
+
+                    <div class="faq-item">
+                        <span>How does pricing work for larger teams?</span>
+                        <button>+</button>
+                    </div>
+
+                    <div class="faq-item">
+                        <span>Can I migrate data from another tool?</span>
+                        <button>+</button>
+                    </div>
+
+                    <div class="faq-item">
+                        <span>What does the 99.9% uptime SLA mean?</span>
+                        <button>+</button>
+                    </div>
+
+                    <div class="faq-item">
+                        <span>Is my data secure?</span>
+                        <button>+</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+</section>
+<section id="foot_section">
+
+ <section class="bg-custom py-5">
+
+    <div class="container div_cont">
+
+        <div class="cta-card rounded-3 p-5">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-8">
+
+                    <button class="btn btn-outline-success rounded-pill px-4  mb-4" style="color: rgb(110, 210, 176);">
+                        GET STARTED TODAY
+                    </button>
+
+                    <h1 class="display-4 fw-bold text-white">
+                        Ready for a <br>
+                        <span class="highlight">clearer workflow?</span>
+                    </h1>
+
+                    <p class="text-secondary mt-3">
+                        Join 50,000+ teams who replaced chaos with clarity.
+                        Set up in under 10 <br> minutes.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+
+                    <button class="btn btn-success rounded-pill px-5 py-3 fw-bold mb-3 shadow-btn" style="background-color: rgb(77, 141, 119);border: none;">
+                        Start Free Trial
+                        <i class="fa-solid fa-arrow-right-long ms-2"></i>
+                    </button>
+
+                    <br>
+
+                    <button class="btn btn-outline-light rounded-pill px-5 py-3 fw-bold" style="color: rgb(241, 239, 239);">
+                        Schedule a Demo
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class="footer-section">
+
+    <div class="container">
+
+        <div class="row pb-5 border-bottom border-secondary">
+
+            <div class="col-lg-4 mb-4">
+
+                <h2 class="fw-bold text-white">
+                    clear<span class="brand-color">wave</span>
+                </h2>
+
+                <p class="text-secondary mt-3">
+                    The calm, powerful workspace for <br> teams
+                    that want to focus on work - <br> and not on managing it.
+                </p>
+
+                <div class="d-flex gap-3 mt-4">
+
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 col-lg-2 mb-4">
+
+                <h6 class="footer-heading">PRODUCT</h6>
+
+                <ul class="list-unstyled">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Mobile App</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Changelog</a></li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-4 col-lg-2 mb-4">
+
+                <h6 class="footer-heading">COMPANY</h6>
+
+                <ul class="list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="#">Status</a></li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-4 col-lg-2 mb-4">
+
+                <h6 class="footer-heading">SUPPORT</h6>
+
+                <ul class="list-unstyled">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center py-4">
+
+            <p class="text-secondary mb-3 mb-lg-0">
+                © 2026 Clearwave. Design by TemplateMo
+            </p>
+
+            <div class="d-flex gap-4">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+</section>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

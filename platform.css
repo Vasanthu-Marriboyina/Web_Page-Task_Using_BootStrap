@@ -1,0 +1,107 @@
+#platform {
+  background: #daedea;
+  font-family: sans-serif;
+  margin: 50px;
+}
+
+.feature-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #d8ebe7;
+  color: #2f7e77;
+  border-radius: 30px;
+  font-weight: bold;
+  border: 1px solid;
+}
+.display-5{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.sec-span {
+  font-style: italic;
+  color: #2f7e77;
+  font-family: "Playfair Display", serif;
+
+}
+
+.dashboard-card {
+  background: #f5f7f7;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.small-card {
+  background: #e8f2ef;
+  padding: 10px;
+  border-radius: 20px;
+  height: 100px;
+}
+
+.small-card p {
+  color: #2f7e77;
+  margin-bottom: 10px;
+  /* min-height: 180px; */
+}
+
+.progress {
+  height: 6px;
+}
+
+.progress-bar {
+  background: #2f7e77;
+}
+
+.activity {
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.activity-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e8f2ef;
+  padding: 12px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.automation-card {
+  background: #f5f7f7;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.automation-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e8f2ef;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.stats-card {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.stats-card p {
+  color: #2f7e77;
+}
+
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: column;
+  }
+}

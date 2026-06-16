@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#foot_section{
+    margin: 50px;
+}
+
+.bg-custom{
+    background:#daedea;
+}
+.div_cont{
+    width: 1100px;
+    /* border-radius: 100px; */
+}
+
+.cta-card{
+    background:#091312;
+}
+
+.highlight{
+    color:#6cd3b2;
+    font-style:italic;
+    font-family:Georgia, serif;
+    font-weight:500;
+}
+
+.shadow-btn{
+    box-shadow:0 0 5px #14d8c4,
+               0 0 10px rgba(20,216,196,.5);
+}
+
+.footer-section{
+    background:#091312;
+    padding:70px 0 20px;
+}
+
+.brand-color{
+    color:#5ce7d8;
+}
+
+.footer-heading{
+    color:#6b7776;
+    font-size:12px;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.footer-section a{
+    color:#d8d8d8;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-section ul li{
+    margin-bottom:12px;
+}
+
+.footer-section a:hover{
+    color:#5ce7d8;
+}
+
+.social-icon{
+    width:42px;
+    height:42px;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.social-icon:hover{
+    border-color:#5ce7d8;
+}
+
+@media(max-width:768px){
+
+    .display-4{
+        font-size:2.3rem;
+    }
+
+    .cta-card{
+        padding:2rem !important;
+    }
+}
