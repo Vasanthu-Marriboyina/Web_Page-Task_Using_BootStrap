@@ -67,3 +67,31 @@ box-sizing:border-box;
 .display-3{
     font-size: 40px;
 }
+#workflow{
+    /* border: 2px solid; */
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.icon_div{
+    height: 50px;
+    width: 200px;
+    /* border: 2px solid; */
+    padding: 10px;
+    border-radius: 10px;
+    background: aliceblue;
+    color: #186442;
+    font-weight: bold;
+    gap: 10px;
+
+}
+.ic_div{
+    height: 30px;
+    width: 40px;
+    border: 1px solid;
+    text-align: center;
+    background: #dbede5;
+    border-radius: 10px;
+}
