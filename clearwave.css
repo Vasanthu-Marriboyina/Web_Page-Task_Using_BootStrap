@@ -92,6 +92,7 @@ box-sizing:border-box;
     width: 40px;
     border: 1px solid;
     text-align: center;
-    background: #dbede5;
+    background: #ebefed;
     border-radius: 10px;
+    font-size: 18px;
 }

@@ -117,7 +117,10 @@ color:#9aa0a6;
 .price{
 font-size:40px;
 font-weight:800;
-margin:20px 0;
+margin:20px 0px;
+align-items: baseline;
+/* gap: 2px; */
+display: flex;
 
 }
 
@@ -127,8 +130,9 @@ font-size:28px;
 }
 
 .price small{
-font-size:18px;
+font-size:15px;
 color:#888;
+font-weight: lighter;
 
 }
 
